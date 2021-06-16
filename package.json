@@ -1,0 +1,22 @@
+{
+  "name": "lambda-serverless-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Testydevver/serverless-playground.git"
+  },
+  "author": "David L.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Testydevver/serverless-playground/issues"
+  },
+  "homepage": "https://github.com/Testydevver/serverless-playground#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
