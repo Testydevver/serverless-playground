@@ -4,6 +4,6 @@ module.exports = () => {
     {
       msg: "Here is jwt",
     },
-    process.env.TOKEN_SECRET
+    "MySecretSecret"
   );
 };
