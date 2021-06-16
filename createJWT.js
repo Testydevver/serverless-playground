@@ -1,9 +1,9 @@
 const jwt = require("jsonwebtoken");
-module.exports = () => {
+module.exports = (secret_sauce) => {
   return jwt.sign(
     {
       msg: "Here is jwt",
     },
-    "MySecretSecret"
+    secret_sauce
   );
 };
