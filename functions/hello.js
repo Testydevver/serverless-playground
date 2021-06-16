@@ -6,7 +6,7 @@ exports.handler = async (event) => {
   const secret = process.env.TOKEN_SECRET;
   return {
     status: 200,
-    body: `Hello ${subject}`,
+    body: `Hello ${subject}, ${createJWT()}`,
     token: createJWT(),
   };
 };
